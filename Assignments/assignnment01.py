@@ -71,5 +71,3 @@ print(type(a), type(b), type(name))
 
 
 
-# Submission Date: The submission date of the assignment is June 23, 2024.
-# Submission link: https://forms.gle/YtEMQfteMDmzRRgs8
