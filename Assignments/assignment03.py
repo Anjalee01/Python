@@ -15,11 +15,11 @@
 # str_name = int(input("Enter a starting num"))
 
 
-# while(str_name >= 0):
-#     print(str_name)
-#     if (str_name == 0):
-#      print("Contdown finished")
-#     str_name -= 1
+while(str_name >= 0):
+    print(str_name)
+    if (str_name == 0):
+     print("Contdown finished")
+    str_name -= 1
   
 
 
