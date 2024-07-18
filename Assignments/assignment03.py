@@ -15,11 +15,11 @@
 # str_name = int(input("Enter a starting num"))
 
 
-while(str_name >= 0):
-    print(str_name)
-    if (str_name == 0):
-     print("Contdown finished")
-    str_name -= 1
+# while(str_name >= 0):
+#     print(str_name)
+#     if (str_name == 0):
+#      print("Contdown finished")
+#     str_name -= 1
   
 
 
@@ -42,15 +42,17 @@ while(str_name >= 0):
 # Once the correct guess is made, the loop exits, and the program prints "Game over!".
 
 secret_no = 42
-guess = int(input("Enter your guess: "))
+guess = None
+
 
 while(guess != secret_no):
+    guess = int(input("Enter your guess: "))
     
     if(guess < secret_no):
-     print("Too high! Try again.")
+     print("Too Low! Try again.")
     elif(guess > secret_no):
        print("Too high! Try again.")
-    guess = int(input("Guess the secret number: "))
+    # guess = int(input("Guess the secret number: "))
 
 print("Congratulations! You guessed the secret number.")
 print("Game over!")
