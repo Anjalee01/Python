@@ -58,7 +58,6 @@ print("Game over!")
 
     
 
-# Submission Date: The submission date of the assignment is June 27, 2024.
-# Submission link: https://forms.gle/xMDYz4TzYt2iCMBp7
+
 
 
