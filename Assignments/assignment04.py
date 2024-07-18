@@ -18,10 +18,10 @@
 
 # Write a program to check whether a number is prime or not.
 
-num = int(input("Enter Number "))
-if (num%num == 0 and num%1==0):
-    print("num is prime")
-else: print(num is not prime)
+# num = int(input("Enter Number "))
+# if (num%num == 0 and num%1==0):
+#     print("num is prime")
+# else: print(num is not prime)
 # Write a loop that makes seven calls to print(), so we get on the output the following triangle:
 #   #
 #   ##
@@ -30,6 +30,16 @@ else: print(num is not prime)
 #   #####
 #   ######
 #   #######
+
+
+for i in range(7):
+    print("3")
+
 # Use and operator to check if 'on' is found in both 'python' and 'dragon'
+# a = "python"
+# b = "dragon"
+# if ("on" in a and b ):
+#     print("on in both")
+# else: print("Not in both")
 # Submission Date: The submission date of the assignment is July 01, 2024
 # Submission link: https://forms.gle/wEHHkhtVWnTUw1U96
