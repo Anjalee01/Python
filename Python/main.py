@@ -1,7 +1,7 @@
-# # a=10
-# # b=2
+# a=10
+# b=2
 
-# # print(a,b)
+# print(a,b)
 
 # # #Escape  sequence words 
 # # #use of \n (for break line )
@@ -113,7 +113,7 @@ print("The sum of the two variables is:", (a//b))'''
 #     print ("Not eligible")
 
 
-# age = 18
+''' age = 18
 # int(input("Enter your age "))
 
 # if age >= 18:
@@ -214,12 +214,19 @@ print("The sum of the two variables is:", (a//b))'''
 
 
 # While loop
-num =1
-while(num <= 5):
-    print(num)
-    num += 1
+# num =1
+# while(num <= 5):
+#     print(num)
+#     num += 1'''
 
+    
 
+height = 80
+user_height = float(input("Enter your Height: "))
+if(user_height >= height):
+  print("You're tall enough to ride!")
+else:
+  print("You're not tall enough to ride, but maybe next year!")
 
 
 

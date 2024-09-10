@@ -9,6 +9,19 @@ print(a*b)
 print(a/b)
 
 
+# Q#2 Write a Python program that demonstrates the use of single-line and multi-line comments.
+# Inside the program, print "Hello, Python!" as an example output.
+
+# print("Hello, Python!")
+
+
+'''print("Hello, Python!")
+print("Hello, Python!")
+print("Hello, Python!")
+print("Hello, Python!")
+print("Hello, Python!")'''
+
+
 
 # Q#3 Write a Python program that declares a variable name and assigns your name to it.
 # Then, print a greeting message such as "Hello, [Your Name]!"
