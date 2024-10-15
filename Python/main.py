@@ -408,6 +408,14 @@ print("The sum of the two variables is:", (a//b))'''
 
 # Variables and Data Types:
 # Write a program to swap the values of two variables without using a third variable. For example, if a = 5 and b = 3, after swapping, a should be 3 and b should be 5.
+a = 5 
+b = 3
+a=a+b #(5+3=8)
+b=a-b #(8-3=5)
+a=a-b #(8-5=3)
+
+print(f'after swappig a = {a}, b={b}')
+
 
 # Ask the user for three numbers and calculate the average. Then, print whether the average is an integer or a floating-point number.
 
@@ -810,8 +818,7 @@ print("The sum of the two variables is:", (a//b))'''
 # Create a dictionary from two lists:
 # You have two lists:
 
-# python
-# Copy code
+
 # names = ['Alice', 'Bob', 'Charlie']
 # ages = [25, 30, 35]
 # Create a dictionary where the names are the keys and the ages are the values.
@@ -827,9 +834,25 @@ print("The sum of the two variables is:", (a//b))'''
 
 # Remove key if condition is met:
 # Given the dictionary numbers = {'one': 1, 'two': 2, 'three': 3, 'four': 4}, remove any key-value pair where the value is even.
+# numbers = {'one': 1, 'two': 2, 'three': 3, 'four': 4}
+
+# key_in_remove = []
+
+# for i in numbers:
+#     if numbers[i]%2==0:
+#         (key_in_remove.append(i))
+#         print(key_in_remove)
+#     else:
+#         print("number is odd")
+
+# for i in key_in_remove:
+#     numbers.pop(i)
+
 
 # Sum values of a dictionary:
 # Given the dictionary expenses = {'rent': 1200, 'groceries': 300, 'utilities': 150}, calculate the total sum of all the values.
+
+
 
 # Nested dictionary access:
 # Given the dictionary:
@@ -849,3 +872,30 @@ print("The sum of the two variables is:", (a//b))'''
 # Given the list numbers = [1, 2, 3, 4, 5], create a dictionary where each number is a key, and its value is the square of the number (e.g., {1: 1, 2: 4, 3: 9}).
 
 # These questions are still accessible but require a bit more thought about how to manipulate dictionaries.
+
+# How would you access the value 'New York'?
+# person = {
+#     'name': 'Alice',
+#     'age': 25,
+#     'address': {'city': 'New York', 'zipcode': 10001}
+# }
+
+
+# print(person['address']['city'])
+
+# student = {
+#     "email":'233',
+#     "name":"fatima",
+#     'child':{
+#     "pasword":"abcd",
+#     "student":"abcd"
+#     }
+# }
+
+
+# for i in student:
+#     if type(student[i]) == type({}):
+#         for j in student[i]:
+#             print(j,student[i][j])
+#     else:
+#         print("There is no dict ")
