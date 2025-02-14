@@ -50,7 +50,8 @@ with open("text.txt","w") as fp:
 with open(r"D:\I\Python\input_output_exercise\text.txt", "r") as fp:
     lines = fp.readlines()
 
-# with open(r"D:\I\Python\input_output_exercise\new_file.txt", "w") as fp:
+with open(r"D:\I\Python\input_output_exercise\new_file.txt", "w") as fp:
+    
     count = 0
     for line in lines:
 
@@ -76,5 +77,31 @@ totalMoney = 1000
 quantity = 3
 price = 450
 
-# statement = "I have {1} dollars so I can buy {0} football for {2:.2f%} dollars."
-# print(statement.format(quantity,totalMoney,price))
+statement = "I have {1} dollars so I can buy {0} football for {2:.2f%} dollars."
+print(statement.format(quantity,totalMoney,price))
+
+
+
+# Write a program to check if the given file is empty or not
+# import os
+
+size = os.stat(r"D:\I\Python\input_output_exercise\text.txt").st_size
+if size == 0:
+    print('file is empty')
+else: ("no")
+
+
+# Read line number 4 from the following file
+
+# Create a test.txt file and add the below content to it.
+
+
+
+with open(r"D:\I\Python\input_output_exercise\text.txt", "r") as fp:
+    lines = fp.readlines()
+    print(lines[3])
+
+
+
+
+
