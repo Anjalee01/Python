@@ -83,7 +83,7 @@ print(statement.format(quantity,totalMoney,price))
 
 
 # Write a program to check if the given file is empty or not
-# import os
+import os
 
 size = os.stat(r"D:\I\Python\input_output_exercise\text.txt").st_size
 if size == 0:
