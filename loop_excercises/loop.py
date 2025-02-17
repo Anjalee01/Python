@@ -105,3 +105,86 @@ for i in range(-10,0):
 for i in range(5):
     print(i)
 print("Done!")
+
+
+# Print all prime numbers within a range
+
+start = 25
+end = 50
+
+
+for num in range(start,end+1):
+    if num > 1:
+        for i in range(2,num):
+            if (num%i == 0):
+                break
+        else:
+            print(num)
+
+
+# Reverse a integer number
+
+num = 76542
+reversed_num = 0 
+
+while num > 0:
+    reminder = num % 10
+    reversed_num = (reversed_num * 10) + reminder
+    num = num // 10
+print(reversed_num)
+
+
+# Print elements from a given list present at odd index positions
+
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+for i in range(len(my_list)):
+    if i % 2 != 0:
+        print(my_list[i])
+
+
+# Write a Python program to print the cube of all numbers from 1 to a given number
+
+input_number = 6
+
+for i in range(1,input_number+1):
+    print(f"Current Number is : {i} and the cube is {i ** 3}")
+
+
+# Write a program to calculate the sum of series up to n terms. For example, if n = 5 the series will become 2 + 22 + 222 + 2222 + 22222 = 24690
+
+n=5
+term = 2
+total = 0
+
+for _ in range(n):
+    total += term
+    term = term * 10 + 2
+print(total) 
+
+
+# Write a program to print the following start pattern using the for loop
+
+# * 
+# * * 
+# * * * 
+# * * * * 
+# * * * * * 
+# * * * * 
+# * * * 
+# * * 
+# *
+
+
+
+
+rows = 5
+for i in range(0, rows):
+    for j in range(0, i + 1):
+        print("*", end=' ')
+    print("\r")
+
+for i in range(rows, 0, -1):
+    for j in range(0, i - 1):
+        print("*", end=' ')
+    print("\r")
